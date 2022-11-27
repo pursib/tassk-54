@@ -19,11 +19,21 @@ html {
   background: $background;
 }
 
-.main {
+.container {
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 10rem;
-  flex-flow: column;
+  width: 1500px;
+  display: grid;
+  row-gap: 20px;
+  column-gap: 20px;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 400px 400px;
+  justify-content: space-around;
+  background-color: red;
+}
+
+.element{
+  width: 400px;
+  height: 400px;
+  background-color: green;
+
 }
